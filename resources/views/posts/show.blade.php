@@ -13,6 +13,7 @@
         <div class='content'>
             <div class='content_post'>
                 <h2 class='title'>{{ $post->title }}</h2>
+                <a href="">{{ $post->category->name }}</a>
                 <p class='body'>{{ $post->body }}</p>
             </div>
             <div class='edit'>
